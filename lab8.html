@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grilled Cheese Sandwich Recipe</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 20px 0;
+}
+a{
+  text-decoration: none;
+}
+
+.recipe-title {
+    font-size: 24px;
+}
+
+.ingredients {
+    padding: 20px;
+}
+
+.ingredients h2 {
+    font-size: 20px;
+}
+
+.ingredients ul {
+    list-style: none;
+}
+
+.ingredients li {
+    margin-bottom: 10px;
+}
+
+.meat {
+    background-color: lightcoral;
+}
+
+.vegetable {
+    background-color: lightgreen;
+}
+
+.dairy {
+    background-color: rgb(255, 255, 163);
+}
+.instructions {
+    padding: 20px;
+}
+
+.instructions h2 {
+    font-size: 20px;
+}
+
+.instruction-text {
+    font-style: italic;
+}
+
+</style>
+<body>
+    <header>
+        <h1 class="recipe-title">Grilled Cheese Sandwich with Bacon and Tomato</h1>
+    </header>
+    <div class="ingredients">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+        Ingredients
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+        <li class="meat"><a  href="#">Bacon</a></li>
+        <li class="dairy"><a  href="#">Cheddar Cheese</a></li>
+        <li class="vegetable"><a  href="#">Tomato slices</a></li>
+        <li class="dairy"><a href="#">Butter</a></li>
+        <li><a href="#">2 slices of bread</a></li>
+      </ul>
+    </div>
+    <div class="instructions">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+        Instructions
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+        <li><a class="dropdown-item" href="#">1. Cook bacon until crispy.</a></li>
+        <li><a class="dropdown-item" href="#">2. Butter one side of each bread slice.</a></li>
+        <li><a class="dropdown-item" href="#">3. Place one slice of bread, butter-side down, in a skillet over medium heat.</a></li>
+        <li><a class="dropdown-item" href="#">4. Add cheddar cheese on top of the bread slice in the skillet.</a></li>
+        <li><a class="dropdown-item" href="#">5. Add tomato slices and cooked bacon on top of the cheese.</a></li>
+        <li><a class="dropdown-item" href="#">6. Place the second bread slice on top, butter-side up.</a></li>
+        <li><a class="dropdown-item" href="#">7. Cook until the bottom slice is golden brown, then flip and cook until the other side is golden brown.</a></li>
+        <li><a class="dropdown-item" href="#">8. Remove from skillet and serve hot.</a></li>
+      </ul>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

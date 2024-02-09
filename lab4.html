@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Two Columns Layout</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    display: flex;
+  }
+  .column {
+    width: 50%;
+    padding: 20px;
+  }
+  .left-column {
+    background-color: #f0f0f0; /* light gray */
+  }
+  .right-column {
+    background-color: #d3f0d3; /* light green */
+  }
+  h2 {
+    margin-top: 0;
+  }
+  ul {
+    padding: 0;
+  }
+  li {
+    margin-bottom: 10px;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="column left-column">
+    <h2>Best Selling Books on Kindle</h2>
+    <ul>
+      <li>The Silent Patient by Alex Michaelides</li>
+      <li>Where the Crawdads Sing by Delia Owens</li>
+      <li>Becoming by Michelle Obama</li>
+      <li>Where the Forest Meets the Stars by Glendy Vanderah</li>
+      <li>The Nightingale by Kristin Hannah</li>
+    </ul>
+  </div>
+  <div class="column right-column">
+    <h2>Favorite Celebrities/Athletes</h2>
+    <ul>
+      <li>LeBron James</li>
+      <li>Rihanna</li>
+      <li>Lionel Messi</li>
+      <li>Emma Watson</li>
+      <li>Dwayne "The Rock" Johnson</li>
+    </ul>
+  </div>
+</div>
+
+</body>
+</html>
